@@ -1,162 +1,350 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <title>VoidSteal SMP</title>
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
+
 *{
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
 body{
-    margin:0;
-    background:#0b0b0b;
-    color:white;
+background:#0b0b0b;
+color:white;
 }
 
-nav{
-    background:#111;
-    padding:20px;
-    text-align:center;
-}
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-weight:bold;
-}
+/* Hero */
 
 .hero{
-    height:450px;
-    background:
-    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),
-    url("background.jpg");
-    background-size:cover;
-    background-position:center;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+
+height:100vh;
+
+background:
+linear-gradient(#0009,#0009),
+url("background.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+text-align:center;
+
 }
+
 
 .hero h1{
-    font-size:65px;
-    color:#00ff88;
-    text-shadow:0 0 15px black;
+
+font-size:70px;
+
 }
+
+
+.hero span{
+
+color:#ff2222;
+
+}
+
 
 .hero p{
-    font-size:22px;
+
+font-size:22px;
+margin:20px;
+
 }
+
 
 .ip{
-    background:#181818;
-    padding:18px;
-    border-radius:8px;
-    margin:20px auto;
-    width:300px;
-    font-size:22px;
+
+background:#ff2222;
+
+display:inline-block;
+
+padding:18px 35px;
+
+border-radius:12px;
+
+font-weight:bold;
+
+font-size:22px;
+
 }
 
-button{
-    background:#00ff88;
-    border:0;
-    padding:15px 35px;
-    border-radius:8px;
-    font-weight:bold;
-    cursor:pointer;
+
+
+/* Navigation */
+
+nav{
+
+position:absolute;
+
+top:0;
+
+width:100%;
+
+padding:25px;
+
+text-align:center;
+
 }
 
-.section{
-    padding:40px;
-    text-align:center;
+
+nav a{
+
+color:white;
+
+text-decoration:none;
+
+margin:25px;
+
+font-weight:bold;
+
 }
+
+
+
+/* Sections */
+
+section{
+
+padding:60px 8%;
+
+text-align:center;
+
+background:#111;
+
+}
+
+
+.cards{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+}
+
 
 .card{
-    display:inline-block;
-    background:#171717;
-    padding:25px;
-    margin:10px;
-    width:200px;
-    border-radius:10px;
+
+background:#181818;
+
+padding:30px;
+
+width:240px;
+
+border-radius:15px;
+
+border:1px solid #333;
+
 }
 
-.stat{
-    font-size:25px;
-    color:#00ff88;
+
+.red{
+
+color:#ff2222;
+
+font-size:30px;
+
+font-weight:bold;
+
 }
+
+
+
+/* Footer */
+
+footer{
+
+padding:25px;
+
+text-align:center;
+
+background:#050505;
+
+color:#888;
+
+}
+
 
 </style>
+
 </head>
+
 
 <body>
 
+
 <nav>
+
 <a href="#">Home</a>
-<a href="#">Server</a>
+
 <a href="#">Rules</a>
+
 <a href="#">Discord</a>
+
 </nav>
+
+
 
 
 <div class="hero">
 
 <div>
-<h1>⚔ VOIDSTEAL SMP ⚔</h1>
 
-<p>The ultimate Lifesteal experience</p>
+<h1>
+<span>VOIDSTEAL</span> SMP
+</h1>
+
+
+<p>
+The ultimate Lifesteal Minecraft experience
+</p>
+
 
 <div class="ip">
-play.voidsteal.com
-</div>
-
-<button>JOIN NOW</button>
-
-</div>
-
+lifestealsmpx.falixsrv.me
 </div>
 
 
-<div class="section">
+</div>
 
-<h2>Server Status</h2>
+</div>
+
+
+
+
+
+<section>
+
+
+<h2>Server Info</h2>
+
+<br>
+
+
+<div class="cards">
+
 
 <div class="card">
-<div class="stat">ONLINE</div>
+
+<div class="red">
+ONLINE
+</div>
+
 Status
+
 </div>
 
+
+
 <div class="card">
-<div class="stat">1.21</div>
+
+<div class="red">
+1.21
+</div>
+
 Version
+
 </div>
+
+
 
 <div class="card">
-<div class="stat">0/100</div>
+
+<div class="red">
+100
+</div>
+
 Players
-</div>
 
 </div>
 
 
-<div class="section">
+</div>
+
+
+</section>
+
+
+
+
+
+<section>
+
 
 <h2>Game Modes</h2>
 
-<div class="card">❤️ Lifesteal</div>
-<div class="card">⚔ PvP</div>
-<div class="card">🌎 Survival</div>
-<div class="card">🔥 Events</div>
+<br>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<div class="red">
+Lifesteal
+</div>
+
+Steal hearts and dominate.
 
 </div>
 
 
-<div class="section">
-<h2>Join Our Community</h2>
-<button>Discord</button>
+
+<div class="card">
+
+<div class="red">
+Survival
 </div>
+
+Build your world.
+
+</div>
+
+
+
+<div class="card">
+
+<div class="red">
+PvP
+</div>
+
+Fight your enemies.
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<footer>
+
+VoidSteal SMP © 2026
+
+</footer>
+
 
 </body>
 </html>
